@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
         <module name="product-service" />
+        <module name="employee-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="employee-service" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="product-service" options="-parameters" />
     </option>
