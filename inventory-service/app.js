@@ -46,7 +46,7 @@ app.listen(port,() => {
         if (err) {
             console.error(err)
         } else  {
-            console.log("Successfully registerd")
+            console.log("Successfully registered")
         }
     })
 })
