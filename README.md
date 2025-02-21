@@ -39,6 +39,11 @@ The microservices are designed to be independent but communicate with each other
 https://github.com/ApsaraWitharana/AD2-CW-Supermarket-Microservices.git
 ```
 
+### API Document
+```
+https://documenter.getpostman.com/view/35385905/2sAYdbPtSH
+```
+
 ## 💜License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
