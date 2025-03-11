@@ -12,6 +12,7 @@ This project demonstrates a microservices architecture using Spring Boot, Node.j
 3. **Order Service**: Manages orders.
 4. **Inventory Service**: Manages inventory (Node.js).
 5. **Customer Service**: Manages customer data (Python).
+6. **Employee Service**: Manage Employee CRUD (Spring)
 
 ## Running the Project
 1. Start the Eureka server.
