@@ -29,6 +29,7 @@ def get_customer():
 
 app.run(port = SERVICE_PORT)
 
+#import py_eureka_client.eureka_client as eureka_client
 #http://localhost:5000/customer-service/customer
 #firstly run eureka server
 #api gateway run
