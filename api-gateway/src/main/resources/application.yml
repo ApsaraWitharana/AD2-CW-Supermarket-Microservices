@@ -32,6 +32,12 @@ spring:
           uri: http://localhost:5000
           predicates:
             - Path=/customer-service/**
+        # Existing routes
+        - id: supplier-service
+          uri: lb://SUPPLIER-SERVICE  # Service name from Eureka
+          predicates:
+            - Path=/supplier-service/**
+
 
 
 eureka:
